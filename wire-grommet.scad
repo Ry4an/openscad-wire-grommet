@@ -1,11 +1,11 @@
 $fa = 1;
 $fs = 0.4;
 wire_radius=2;
-hole_radius=5.5;
+hole_radius=7.5;
 length=39;
 angle=22;
-lip_width=5;
-lip_thickness=5;
+lip_width=3;
+lip_thickness=3;
 //cylinder(h=length, r=wire_diameter);
 module solid_peg() {
     cylinder(h=length, r=hole_radius, center=true);
